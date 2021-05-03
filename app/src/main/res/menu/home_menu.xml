@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        android:title="@string/profile"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/hospital"
+        android:icon="@drawable/ic_baseline_local_hospital_24"
+        android:title="@string/hospital"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pharmacies"
+        android:icon="@drawable/ic_baseline_local_pharmacy_24"
+        android:title="@string/pharmacies"
+        app:showAsAction="never" />
+</menu>

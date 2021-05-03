@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/total"
+        android:icon="@drawable/ic_baseline_edit_calendar_24"
+        android:title="@string/total"
+        app:cnb_backgroundColor="#2D2942"
+        app:cnb_iconColor="#faba01"
+        app:cnb_textColor="#ffffff" />
+
+    <item
+        android:id="@+id/today"
+        android:icon="@drawable/ic_baseline_event_available_24"
+        android:title="@string/today"
+        app:cnb_backgroundColor="#2D2942"
+        app:cnb_iconColor="#faba01"
+        app:cnb_textColor="#ffffff" />
+
+    <item
+        android:id="@+id/yesterday"
+        android:icon="@drawable/ic_baseline_event_24"
+        android:title="@string/yesterday"
+        app:cnb_backgroundColor="#2D2942"
+        app:cnb_iconColor="#faba01"
+        app:cnb_textColor="#ffffff" />
+</menu>
